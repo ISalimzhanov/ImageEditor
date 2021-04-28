@@ -2,7 +2,7 @@ package canvas
 
 open class CanvasDecorator(
     val component: CanvasView,
-) : CanvasView(component.width, component.length) {
+) : CanvasView() {
     override fun draw() {
         component.draw()
     }

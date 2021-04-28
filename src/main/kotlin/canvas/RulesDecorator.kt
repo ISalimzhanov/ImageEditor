@@ -7,9 +7,7 @@ class RulesDecorator(component: CanvasView) : CanvasDecorator(component) {
     }
 
     override fun changeShape(width: Int, length: Int) {
-        println(
-            "Rules was reshaped"
-        )
+        println("Rules was reshaped")
         component.changeShape(width, length)
     }
 }
